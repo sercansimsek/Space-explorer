@@ -1,5 +1,5 @@
 {
-  "name": "Space-explorer",
+  "name": "space-explorer",
   "source": "./index.html",
   "scripts": {
     "start": "parcel",
