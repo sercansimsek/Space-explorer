@@ -18,7 +18,8 @@ async function getApod() {
 function displayApod(data) {
   picTitle.textContent = data.title;
   const image = document.createElement("img");
-  image.style.width = 300 + "px";
+  image.classList.add('image');
+  image.style.width = 500 + "px";
   image.src = `${data.hdurl}`;
   picOfTheDay.appendChild(image);
 }

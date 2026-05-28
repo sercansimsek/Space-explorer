@@ -4,12 +4,33 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Audiowide", sans-serif;
+}
+
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header-icon {
+  width: 100px;
+}
+
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header-icon {
-  width: 100px;
+.picTitle {
+  text-align: center;
+  color: orangered;
+  margin-bottom: 1rem;
+}
+
+.image {
+  border-radius: 10px;
 }
